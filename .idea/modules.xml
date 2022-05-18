@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaEckel.iml" filepath="$PROJECT_DIR$/JavaEckel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-EckelBook.iml" filepath="$PROJECT_DIR$/Java-EckelBook.iml" />
     </modules>
   </component>
 </project>
