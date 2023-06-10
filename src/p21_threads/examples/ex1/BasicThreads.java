@@ -1,4 +1,4 @@
-package p21_threads.examples.concurrency;
+package p21_threads.examples.ex1;
 
 public class BasicThreads {
     public static void main(String[] args) {
