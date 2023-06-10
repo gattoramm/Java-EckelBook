@@ -2,10 +2,10 @@
 
 ### Примеры из книги
 
-[Liftoff](src/p21_threads/examples/concurrency/Liftoff.java) - задача, которую распараллеливаем.
-MainThread - прямой вызов метода run().
-BasicThreads - через использование класса Thread.
-MoreBasicThreads - через использование класса Thread с дополнительными потоками.
+* [Liftoff](examples/ex1/Liftoff.java) - задача, которую распараллеливаем.
+* [MainThread](examples/ex1/MainThread.java)  - прямой вызов метода run().
+* [BasicThreads](examples/ex1/BasicThreads.java)  - через использование класса Thread.
+* [MoreBasicThreads](examples/ex1/MoreBasicThreads.java)  - через использование класса Thread с дополнительными потоками.
 
 ### Упражнение
 
