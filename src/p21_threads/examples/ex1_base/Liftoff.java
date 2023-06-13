@@ -1,4 +1,4 @@
-package p21_threads.examples.ex1;
+package p21_threads.examples.ex1_base;
 
 public class Liftoff implements Runnable{
     protected int countDown = 10;
