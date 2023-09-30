@@ -3,6 +3,7 @@ package p05.initialization.examples.enums;
 
 public class Burrito {
     Spiciness degree;
+
     public Burrito(Spiciness degree) {
         this.degree = degree;
     }

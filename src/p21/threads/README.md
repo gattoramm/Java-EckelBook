@@ -1,13 +1,13 @@
 ### Глава 21 - Потоки
 
-Примеры из книги
+### Примеры из книги
 
 * [Liftoff](examples/base/Liftoff.java) - задача, которую распараллеливаем.
 * [MainThread](examples/base/MainThread.java) - прямой вызов метода run().
 * [BasicThreads](examples/base/BasicThreads.java) - через использование класса Thread.
 * [MoreBasicThreads](examples/base/MoreBasicThreads.java) - через использование класса Thread с дополнительными потоками.
 
-Упражнение
+### Упражнения
 
 * [1](exercises/ex1/MainThread.java) Реализуйте интерфейс Runnable. В методе run() выведите сообщение, после чего вызовите yield().
 Повторите 3 раза и верните управление из run(). Выведите начальное сообщение в конструкторе, а при
