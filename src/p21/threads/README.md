@@ -3,9 +3,9 @@
 Примеры из книги
 
 * [Liftoff](examples/base/Liftoff.java) - задача, которую распараллеливаем.
-* [MainThread](examples/base/MainThread.java)  - прямой вызов метода run().
-* [BasicThreads](examples/base/BasicThreads.java)  - через использование класса Thread.
-* [MoreBasicThreads](examples/base/MoreBasicThreads.java)  - через использование класса Thread с дополнительными потоками.
+* [MainThread](examples/base/MainThread.java) - прямой вызов метода run().
+* [BasicThreads](examples/base/BasicThreads.java) - через использование класса Thread.
+* [MoreBasicThreads](examples/base/MoreBasicThreads.java) - через использование класса Thread с дополнительными потоками.
 
 Упражнение
 
