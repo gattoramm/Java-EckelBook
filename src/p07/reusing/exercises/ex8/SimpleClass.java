@@ -1,6 +1,5 @@
 package p07.reusing.exercises.ex8;
 
-
 class BaseClass {
     BaseClass(int i) {
         System.out.println("Конструктор BaseClass с параметром " + i);

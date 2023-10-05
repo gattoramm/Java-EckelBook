@@ -2,7 +2,6 @@ package p09.interfaces.examples.abstractclassesandmethods;
 
 import p08.polymorphism.examples.upwardconversion.Music.Note;
 
-
 abstract class Instrument {
     private int i;
     public abstract void play(Note n);

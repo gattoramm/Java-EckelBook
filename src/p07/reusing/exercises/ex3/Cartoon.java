@@ -1,6 +1,5 @@
 package p07.reusing.exercises.ex3;
 
-
 class Art {
     Art() {
         System.out.println("Конструктор Art");

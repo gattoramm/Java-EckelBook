@@ -1,6 +1,5 @@
 package p09.interfaces.exercises.ex3;
 
-
 abstract class AbsClass {
     int i;
     abstract void print();

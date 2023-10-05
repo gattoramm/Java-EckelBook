@@ -1,6 +1,5 @@
 package p11.collections.exercises.ex1;
 
-
 class Gerbil {
     private int gerbilNumber;
 
@@ -13,10 +12,3 @@ class Gerbil {
         return gerbilNumber;
     }
 }
-
-
-
-
-/*
-* Создайте контейнер ArrayList и добавьте в него объекты Gerbil. Используйте метод get() для перебора элементов и вызова hop() для каждого объекта Gerbil.
-* */

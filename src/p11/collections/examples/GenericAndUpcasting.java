@@ -2,7 +2,6 @@ package p11.collections.examples;
 
 import java.util.ArrayList;
 
-
 class GrannySmith extends Apple {};
 class Gala extends Apple {};
 class Fuji extends Apple {};

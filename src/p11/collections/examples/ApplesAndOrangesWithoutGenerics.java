@@ -2,7 +2,6 @@ package p11.collections.examples;
 
 import java.util.*;
 
-
 class Apple {
     private static long counter;
     private final long id = counter++;

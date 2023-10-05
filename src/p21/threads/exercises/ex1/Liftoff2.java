@@ -1,6 +1,5 @@
 package p21.threads.exercises.ex1;
 
-
 public class Liftoff2 implements Runnable{
     protected int countDown = 3;
     private static int taskCount = 0;

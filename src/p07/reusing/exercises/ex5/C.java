@@ -1,6 +1,5 @@
 package p07.reusing.exercises.ex5;
 
-
 class A {
     A() {
         System.out.println("Конструктор A");

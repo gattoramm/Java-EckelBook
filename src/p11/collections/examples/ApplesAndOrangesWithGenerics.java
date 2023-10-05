@@ -2,7 +2,6 @@ package p11.collections.examples;
 
 import java.util.*;
 
-
 public class ApplesAndOrangesWithGenerics {
     public static void main(String[] args) {
         ArrayList<Apple> apples = new ArrayList<Apple>();

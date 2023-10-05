@@ -1,6 +1,5 @@
 package p07.reusing.exercises.ex1;
 
-
 class BaseClass {
     public String b;
 
