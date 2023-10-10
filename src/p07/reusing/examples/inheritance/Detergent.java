@@ -1,6 +1,5 @@
 package p07.reusing.examples.inheritance;
 
-
 class Cleanser {
     private String s = "Cleanser";
     public void append(String a) {
