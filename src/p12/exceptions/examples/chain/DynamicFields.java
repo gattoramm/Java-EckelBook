@@ -7,9 +7,8 @@ public class DynamicFields {
 
     public DynamicFields(int initialSize) {
         fields = new Object[initialSize][2];
-        for (int i = 0; i < initialSize; i++) {
+        for (int i = 0; i < initialSize; i++)
             fields[i] = new Object[] {null, null};
-        }
     }
 
     public String toString() {
@@ -24,19 +23,16 @@ public class DynamicFields {
     }
 
     private int hasField(String id) {
-        for (int i = 0; i < fields.length; i++) {
-            if (id.equals(fields[i][0])) {
+        for (int i = 0; i < fields.length; i++)
+            if (id.equals(fields[i][0]))
                 return i;
-            }
-        }
         return -1;
     }
 
     private int getFieldNumber(String id) throws NoSuchFieldException {
         int fieldNum = hasField(id);
-        if (fieldNum == -1) {
+        if (fieldNum == -1)
             throw new NoSuchFieldException();
-        }
         return fieldNum;
     }
 
@@ -49,12 +45,10 @@ public class DynamicFields {
         }
         // Пустых полей нет, добавить новое
         Object[][] tmp = new Object[fields.length + 1][2];
-        for (int i = 0; i < fields.length; i++) {
+        for (int i = 0; i < fields.length; i++)
             tmp[i] = fields[i];
-        }
-        for (int i = fields.length; i < tmp.length; i++) {
+        for (int i = fields.length; i < tmp.length; i++)
             tmp[i] = new Object[] { null, null };
-        }
         fields = tmp;
         // Рекурсивный вызов с новыми полями
         return makeField(id);
