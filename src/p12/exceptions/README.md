@@ -7,12 +7,12 @@
 * [Пример](examples/myself/FullConstructors.java) - Создание собственного исключения с аргументом в конструкторе
 
 #### Вывод информации об исключениях
-* [Пример](examples/logging/LoggingExceptions.java) - Вывод информации об исключениях через объект Logger
+* [Пример](examples/logging/LoggingExceptions.java) - Вывод информации об исключениях через объект `Logger`
 * [Пример](examples/logging/LoggingExceptions2.java) - Регистрация перехваченных исключений
 * [Пример](examples/logging/ExtraFeatures.java) - Расширение функциональности классов исключений
 
 #### Перехват любого типа исключений
-* [Пример](examples/ExceptionMethods.java) - Демонстрация методов класса Exception
+* [Пример](examples/ExceptionMethods.java) - Демонстрация методов класса `Exception`
 
 ##### Трассировка стека
 * [Пример](examples/trace/WhoCalled.java) - Программный доступ к информации трассировки стека
